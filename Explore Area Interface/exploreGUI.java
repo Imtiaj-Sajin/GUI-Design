@@ -95,7 +95,7 @@ public class exploreGUI implements ActionListener{
     public void actionPerformed(ActionEvent e)  {
         if(e.getSource()==bookButton){
             frame.setVisible(false);
-            new trainGUI();
+            new bookTicketGUI();
            }
            
         if(e.getSource()==homeButton){
